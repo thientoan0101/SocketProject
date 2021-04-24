@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+
+    .active {
+      background-color: #4CAF50;
+    }
+
+    table {
+      padding: 3%;
+      margin-left: 5%;
+      color: rgb(73, 34, 37);
+      font-family: verdana;
+      font-size: 250%;
+    }
+
+    h1 {
+      padding: 3%;
+      margin: 0px;
+      color: rgb(160, 17, 65);
+      font-family: verdana;
+      font-size: 300%;
+    }
+
+    #info {
+      margin: 0px;
+      background-image: url("https://image.freepik.com/free-vector/watercolor-winter-background_23-2148702810.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+
+
+    footer {
+      text-align: center;
+      margin: 0px;
+      height: 30px;
+      background-color: rgb(7, 26, 14);
+      color: white;
+    }
+
+    iframe {
+      margin-left: 23%;      
+    }
+
+    #demo {
+      background-image: url("https://image.freepik.com/free-vector/watercolor-winter-background_23-2148702810.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+
+    }
+  </style>
+</head>
+
+<body>
+  <section id="header" style="background-color: mediumturquoise;">
+    <ul>
+      <li><a class="active" href="info.html">Home</a></li>
+      <li><a href="files.html">Download</a></li>
+      <li><a href="#demo">Demo</a></li>
+      <li><a href="#info">Info</a></li>
+      <li style="margin-left: 70%;background-color: darkslategrey;;"><a href="logout" class="btn btn-danger ">Logout</a>
+        <!-- <li style="margin-left: 70%;background-color: darkslategrey;;"><a href="index.html">Logout</a></li> -->
+    </ul>
+  </section>
+
+  <section id="info">
+    <br><br>
+    <h1 style="text-align:center;">INFORMATION</h1>
+
+    <table>
+      <tbody>
+        <tr>
+          <th style="margin: 3%;">Nguyen Tran Thien Toan</th>
+          <th style="padding-left: 6.7%;">Nguyen Huu Tuan</th>
+        </tr>
+        <tr>
+          <td style="padding-left: 10%;">
+            <img
+              src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.0-9/34199746_547133925682533_1823411512065130496_n.jpg?_nc_cat=111&ccb=2&_nc_sid=174925&_nc_ohc=GsD6cXzUhK4AX8BakzY&_nc_ht=scontent.fsgn5-6.fna&oh=2da19fb17f75da003d1d1ffa9cd0e38a&oe=600CBEDA"
+              alt="toan" style="width:300px;height:300px;">
+          </td>
+          <td style="padding-left: 14%;">
+            <img
+              src="https://scontent.fsgn4-1.fna.fbcdn.net/v/t1.0-9/82126997_2605086319725428_7298327678577278976_o.jpg?_nc_cat=101&ccb=2&_nc_sid=174925&_nc_ohc=UHC_ig1yFnAAX_FxrzP&_nc_ht=scontent.fsgn4-1.fna&oh=68aca258619aa8ce4e78848c456ae864&oe=60279538"
+              alt="toan" style="width:300px;height:300px;">
+          </td>
+        </tr>
+        <tr>
+          <td style="padding-left: 7%;" ;"="">MSSV: 19127294</td>
+          <td style="padding-left: 120px;" ;"="">MSSV: 19127083</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <hr style="margin: 0px;">
+
+  <section id="demo">
+    <h1 style="text-align:center;">DEMO</h1>
+    <iframe width="685" height="386" src="https://www.youtube.com/embed/xUj495JYbYM?autoplay=1&mute=0">
+    </iframe>
+    <br><br><br>
+  </section>
+
+  <footer>
+    <p style="padding: 0px; margin: 0px;">Thanks For Watching (^.^)</p>
+  </footer>
+
+</body>
+
+</html>

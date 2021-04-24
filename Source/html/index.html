@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <title> Login Index</title>
+    <!-- <link rel="stylesheet" href="/main.css" type="text/css"> -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url(https://image.freepik.com/free-vector/blue-white-low-poly-triangle-shapes-background_1035-19007.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            font-family: sans-serif;
+        }
+
+        .loginbox {
+            width: 500px;
+            height: 420px;
+            background: #d2f5fc;
+            color: #04bd70;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            box-sizing: border-box;
+            padding: 70px 30px;
+        }
+
+        .avatar {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            position: absolute;
+            top: -50px;
+            left: calc(12% - 50px);
+        }
+
+        h1 {
+            margin: 0;
+            padding: 0 0 20px;
+            text-align: center;
+            font-size: 22px;
+        }
+
+        .loginbox p {
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+        }
+
+        .loginbox input {
+            width: 260px;
+            margin-bottom: 20px;
+            margin-left: 20%;
+        }
+
+        .loginbox input[type="text"],
+        input[type="password"] {
+            border: none;
+            border-bottom: 1px solid #2c4b6e;
+            background: rgb(173, 231, 224);
+            outline: none;
+            height: 40px;
+            color: #000000;
+        }
+
+        .loginbox input[type="submit"] {
+            border: none;
+            outline: none;
+            height: 40px;
+            background: #4f86c5;
+            color: #ffffff;
+            font-size: 18px;
+            border-radius: 20px;
+        }
+
+        .loginbox input[type="submit"]:hover {
+            cursor: pointer;
+            background: #653ada;
+            color: #000000;
+        }
+
+        .loginbox a {
+            text-decoration: none;
+            font-size: 12px;
+            line-height: 20px;
+            color: darkgray;
+        }
+
+        .loginbox a:hover {
+            color: #ffc107;
+        }
+    </style>
+</head>
+
+<body>
+    <dir class="loginbox">
+        <!-- <img src="http://www.pngall.com/wp-content/uploads/5/Profile-Male-PNG.png" class="avatar" alt=""> -->
+        <img src="https://courses.ctda.hcmus.edu.vn/pluginfile.php/1/core_admin/logo/0x200/1607059829/logo_dat_kem_voi_logo_truong.png"
+            class="avatar" title="Learning Management System - fit@hcmus" alt="Learning Management System - fit@hcmus"
+            style="width:465px;height:200px">
+        <h1> Login Here </h1>
+        <form action="info.html" method="POST">
+            <p> Username </p>
+            <input type="text" id="username" name="username" placeholder="Enter Username"><br>
+            <p> Password </p>
+            <input type="password" id="password" name="password" placeholder="Enter Password"><br>
+            <input type="submit" name="" value="Login"> <br>
+            <a href="#"> Lost your password </a> <br>
+            <a href="#"> Don't have an account </a>
+        </form>
+    </dir>
+</body>
+
+</html>
